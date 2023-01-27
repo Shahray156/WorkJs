@@ -73,6 +73,6 @@ alert[user](info);
 // 10
 
 let hello = prompt('Как вас звоут?');
-alert('Привет ${userName}'+ '!')
+alert('Привет ${userName}'+ '!');
 
 
