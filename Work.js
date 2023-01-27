@@ -63,12 +63,13 @@ const user = {
     name: "Diana",
     age: 25,
     isAdmin: false,
-    cityOfResidence: Moscow, 
+    "city of residence": "Moscow",
 };
+user["city of residence"] = 'Moscow';
 delete user.cityOfResidence;
-Object.defineProperty(user, "age",  {value : "26"}); 
+user["age"] = 26;
 let info = prompt('Какую информацию хотите узнать о пользователе?');
-alert[user](info);
+alert( user[info] );
 
 // 10
 
